@@ -1,0 +1,23 @@
+body {
+    background-image: url(pictures/home_bg.jpg);
+    background-size: 90em;
+}
+
+#gamePName1,
+#gamePName2 {
+    text-align: center;
+    font-size: 4em;
+}
+
+#vs {
+    text-align: center;
+    color: brown;
+    padding: 2em;
+}
+
+#p1,
+#p2 {
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 2em;
+}

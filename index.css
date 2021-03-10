@@ -1,0 +1,93 @@
+body {
+    background-image: url(pictures/home_bg.jpg);
+    background-size: 90em;
+}
+
+@keyframes slideBottom {
+    0% {
+        top: 0px;
+    }
+    50% {
+        top: 200px;
+    }
+    100% {
+        top: 50px;
+    }
+}
+
+#gameTitleDiv {
+    top: 50px;
+    color: aliceblue;
+    position: relative;
+    background-color: gray;
+    opacity: 0.5;
+    animation-name: slideBottom;
+    animation-duration: 2s;
+}
+
+#gameTitle {
+    font-size: 3.4em;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0.8;
+    }
+}
+
+#enterName {
+    top: 100px;
+    font-size: 2.9em;
+    color: bisque;
+    position: relative;
+    background-color: black;
+    opacity: 0.8;
+    animation-name: fade;
+    animation-duration: 5s;
+}
+
+input {
+    width: 80%;
+    height: 100%;
+    font-size: 3.5em;
+    color: brown;
+    font-weight: 700;
+}
+
+@keyframes slideUp {
+    0% {
+        top: 1000px;
+    }
+    50% {
+        top: 200px;
+    }
+    100% {
+        top: 150px;
+    }
+}
+
+#pName1,
+#pName2 {
+    position: relative;
+    height: 4.8em;
+    top: 150px;
+    color: white;
+    background-color: black;
+    opacity: 0.7;
+    animation-name: slideUp;
+    animation-duration: 2s;
+}
+
+img {
+    margin-bottom: 2em;
+    margin-left: 0.5em;
+}
+
+#startBtn {
+    position: relative;
+    top: 200px;
+    ;
+}
