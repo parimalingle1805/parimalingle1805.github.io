@@ -21,3 +21,27 @@ body {
     border: 2px solid black;
     border-radius: 2em;
 }
+
+#turn {
+    background-color: lightgreen;
+    color: blue;
+    border-radius: 0.5em;
+}
+
+#canvas {
+    margin: 1em;
+    background-color: white;
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: 13em 13em 13em;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.gameSquare {
+    border: 5px solid black;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
