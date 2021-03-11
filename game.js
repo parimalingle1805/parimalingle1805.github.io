@@ -30,7 +30,15 @@ let arr_done = [];
 function fn(id) {
     if (arr_done.includes(id)) {
         console.log(true);
-        alert("Already filled! Choose a Blank field.")
+        alert("Already filled! Choose a Blank field.");
+
+        if (img === '<img src="pictures/oIcon.jpg" alt="O">' && flag === 1) {
+            flag = 0;
+            img = '<img src="pictures/xIcon.jpg" alt="X">';
+        } else {
+            flag = 1;
+            img = '<img src="pictures/oIcon.jpg" alt="O">';
+        }
 
     } else {
         console.log(false);
